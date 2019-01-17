@@ -1,6 +1,6 @@
 - open the "team menu" (the dropdown button marked with the workspace
   name and your username)
-- go to Preferences > Sidebar
+- navigate: Preferences > Sidebar
 - scroll down to Custom Theme
 - paste the following into the Custom Theme input box:
 

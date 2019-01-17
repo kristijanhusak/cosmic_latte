@@ -308,22 +308,22 @@ source ~/.vim/plugged/cosmic_latte/shell/cosmic_latte_dark.fish
 The following additional themes are provided, but not personally used,
 by the author (so don't hesitate to report [issues](https://github.com/nightsense/cosmic_latte/issues)!).
 
+- [apps](https://github.com/nightsense/cosmic_latte/tree/master/apps)
+  - [slack](https://github.com/nightsense/cosmic_latte/tree/master/apps/slack)
+
 - [terminals](https://github.com/nightsense/cosmic_latte/tree/master/terminals)
   - [iterm2](https://github.com/nightsense/cosmic_latte/tree/master/terminals/iterm2)
     - download theme file ([light](https://raw.githubusercontent.com/nightsense/cosmic_latte/master/terminals/iterm2/cosmic_latte_light.itermcolors), [dark](https://raw.githubusercontent.com/nightsense/cosmic_latte/master/terminals/iterm2/cosmic_latte_dark.itermcolors))
     - launch iTerm and navigate: iTerm > Preferences > Profiles > Colors > Presets... > Import...
     - select downloaded file, then select cosmic_latte theme from Preset... menu
   - [konsole](https://github.com/nightsense/cosmic_latte/tree/master/terminals/konsole)
-    - download theme file ([light](https://raw.githubusercontent.com/nightsense/cosmic_latte/master/terminals/konsole/cosmic_latte_light.colorscheme), [dark](https://raw.githubusercontent.com/nightsense/cosmic_latte/master/terminals/konsole/cosmic_latte_dark.colorscheme))to `~/.local/share/konsole`, ensuring that the extension `.colorscheme` is retained
+    - download theme file ([light](https://raw.githubusercontent.com/nightsense/cosmic_latte/master/terminals/konsole/cosmic_latte_light.colorscheme), [dark](https://raw.githubusercontent.com/nightsense/cosmic_latte/master/terminals/konsole/cosmic_latte_dark.colorscheme)) to `~/.local/share/konsole`, retaining file extension `.colorscheme`
     - launch Konsole and navigate: Settings > Edit Current Profile... > Appearance
-    - select theme from Color Schemes & Background pane
+    - select cosmic_latte theme from Color Schemes & Background pane
   - [st](https://github.com/nightsense/cosmic_latte/tree/master/terminals/st)
   - [xresources](https://github.com/nightsense/cosmic_latte/tree/master/terminals/xresources)
 
-- [apps](https://github.com/nightsense/cosmic_latte/tree/master/apps)
-  - [slack](https://github.com/nightsense/cosmic_latte/tree/master/apps/slack)
-
-> Most of these themes were generated with [terminal.sexy](https://terminal.sexy).
+> Terminal themes were generated with [terminal.sexy](https://terminal.sexy).
 
 ---
 
