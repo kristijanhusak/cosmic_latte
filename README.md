@@ -310,10 +310,13 @@ by the author (so don't hesitate to report [issues](https://github.com/nightsens
 
 - [terminals](https://github.com/nightsense/cosmic_latte/tree/master/terminals)
   - [iterm2](https://github.com/nightsense/cosmic_latte/tree/master/terminals/iterm2)
-    - download theme file ([light](https://raw.githubusercontent.com/nightsense/cosmic_latte/master/terminals/iterm2/cosmic_latte_light.itermcolors), [dark](https://raw.githubusercontent.com/nightsense/cosmic_latte/master/terminals/iterm2/cosmic_latte_dark.itermcolors)
-    - iTerm > Preferences > Profiles > Colors > Presets... > Import...
+    - download theme file ([light](https://raw.githubusercontent.com/nightsense/cosmic_latte/master/terminals/iterm2/cosmic_latte_light.itermcolors), [dark](https://raw.githubusercontent.com/nightsense/cosmic_latte/master/terminals/iterm2/cosmic_latte_dark.itermcolors))
+    - launch iTerm and navigate: iTerm > Preferences > Profiles > Colors > Presets... > Import...
     - select downloaded file, then select cosmic_latte theme from Preset... menu
   - [konsole](https://github.com/nightsense/cosmic_latte/tree/master/terminals/konsole)
+    - download theme file ([light](https://raw.githubusercontent.com/nightsense/cosmic_latte/master/terminals/konsole/cosmic_latte_light.colorscheme), [dark](https://raw.githubusercontent.com/nightsense/cosmic_latte/master/terminals/konsole/cosmic_latte_dark.colorscheme))to `~/.local/share/konsole`, ensuring that the extension `.colorscheme` is retained
+    - launch Konsole and navigate: Settings > Edit Current Profile... > Appearance
+    - select theme from Color Schemes & Background pane
   - [st](https://github.com/nightsense/cosmic_latte/tree/master/terminals/st)
   - [xresources](https://github.com/nightsense/cosmic_latte/tree/master/terminals/xresources)
 
