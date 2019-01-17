@@ -318,7 +318,7 @@ by the author (so don't hesitate to report [issues](https://github.com/nightsens
 - [apps](https://github.com/nightsense/cosmic_latte/tree/master/apps)
   - [slack](https://github.com/nightsense/cosmic_latte/tree/master/apps/slack)
 
-These themes were mostly generated with [terminal.sexy](https://terminal.sexy).
+> These themes were mostly generated with [terminal.sexy](https://terminal.sexy).
 
 ---
 
