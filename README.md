@@ -255,7 +255,7 @@ let &t_EI = "\<Esc>[2 q"
 
 ### colors
 
-Many terminal emulators (including GNOME Terminal, Pantheon Terminal, MATE Terminal, Xfce Terminal, LXTerminal, Terminator, Guake, Alacritty, and kitty) can be themed by sourcing the color-setting shell scripts included with cosmic_latte. The path to these scripts will depend on your plugin management method.
+Many terminal emulators (including iTerm2, GNOME Terminal, Pantheon Terminal, MATE Terminal, Xfce Terminal, LXTerminal, Terminator, Guake, Alacritty, and kitty) can be themed by sourcing the color-setting shell scripts included with cosmic_latte. The path to these scripts will depend on your plugin management method.
 
 For instance, if you use vim-plug and want to apply the dark cosmic_latte theme to your bash or zsh shell, add the following to `~/.bashrc` or `~/.zshrc`:
 
@@ -310,15 +310,17 @@ by the author (so don't hesitate to report [issues](https://github.com/nightsens
 
 - [terminals](https://github.com/nightsense/cosmic_latte/tree/master/terminals)
   - [iterm2](https://github.com/nightsense/cosmic_latte/tree/master/terminals/iterm2)
+    - download theme file ([light](https://raw.githubusercontent.com/nightsense/cosmic_latte/master/terminals/iterm2/cosmic_latte_light.itermcolors), [dark](https://raw.githubusercontent.com/nightsense/cosmic_latte/master/terminals/iterm2/cosmic_latte_dark.itermcolors)
+    - iTerm > Preferences > Profiles > Colors > Presets... > Import...
+    - select downloaded file, then select cosmic_latte theme from Preset... menu
   - [konsole](https://github.com/nightsense/cosmic_latte/tree/master/terminals/konsole)
   - [st](https://github.com/nightsense/cosmic_latte/tree/master/terminals/st)
-  - [terminal.app](https://github.com/nightsense/cosmic_latte/tree/master/terminals/terminal.app)
   - [xresources](https://github.com/nightsense/cosmic_latte/tree/master/terminals/xresources)
 
 - [apps](https://github.com/nightsense/cosmic_latte/tree/master/apps)
   - [slack](https://github.com/nightsense/cosmic_latte/tree/master/apps/slack)
 
-> These themes were mostly generated with [terminal.sexy](https://terminal.sexy).
+> Most of these themes were generated with [terminal.sexy](https://terminal.sexy).
 
 ---
 
