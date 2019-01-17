@@ -308,6 +308,8 @@ source ~/.vim/plugged/cosmic_latte/shell/cosmic_latte_dark.fish
 ### emacs
 
 - put in your `load-path`: [dash.el](https://raw.githubusercontent.com/nightsense/cosmic_latte/master/emacs/dash.el) + [cosmic_latte_light.el](https://raw.githubusercontent.com/nightsense/cosmic_latte/master/emacs/cosmic_latte_light.el) | [cosmic_latte_dark.el](https://raw.githubusercontent.com/nightsense/cosmic_latte/master/emacs/cosmic_latte_dark.el)
+ - for instance, you could put these files in `~/.emacs.d/load` and add
+   `(add-to-list 'load-path "~/.emacs.d/load")` to `init.el`
 - put in `~/.emacs.d/themes`: [cosmic_latte_light-theme.el](https://raw.githubusercontent.com/nightsense/cosmic_latte/master/emacs/cosmic_latte_light-theme.el) | [cosmic_latte_dark-theme.el](https://raw.githubusercontent.com/nightsense/cosmic_latte/master/emacs/cosmic_latte_dark-theme.el)
 - add to `init.el`: `(add-to-list 'custom-theme-load-path "~/.emacs.d/themes")`
 - load cosmic_latte with `M-x load-theme`
