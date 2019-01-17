@@ -306,7 +306,7 @@ source ~/.vim/plugged/cosmic_latte/shell/cosmic_latte_dark.fish
 ## other themes
 
 The following additional themes are provided, but not personally used,
-by the author (so don't hesitate to report [issues](https://github.com/nightsense/cosmic_latte/issues)!).
+by the author (so don't hesitate to report [issues](https://github.com/nightsense/cosmic_latte/issues)).
 
 ### apps
 
@@ -315,11 +315,11 @@ by the author (so don't hesitate to report [issues](https://github.com/nightsens
 ### terminals
 
 - [iterm2](https://github.com/nightsense/cosmic_latte/tree/master/terminals/iterm2)
-  - download theme file ([light](https://raw.githubusercontent.com/nightsense/cosmic_latte/master/terminals/iterm2/cosmic_latte_light.itermcolors), [dark](https://raw.githubusercontent.com/nightsense/cosmic_latte/master/terminals/iterm2/cosmic_latte_dark.itermcolors))
+  - download theme file ([light](https://raw.githubusercontent.com/nightsense/cosmic_latte/master/terminals/iterm2/cosmic_latte_light.itermcolors) | [dark](https://raw.githubusercontent.com/nightsense/cosmic_latte/master/terminals/iterm2/cosmic_latte_dark.itermcolors))
   - launch iTerm and navigate: iTerm > Preferences > Profiles > Colors > Presets... > Import...
   - select downloaded file, then select cosmic_latte theme from Preset... menu
 - [konsole](https://github.com/nightsense/cosmic_latte/tree/master/terminals/konsole)
-  - download theme file ([light](https://raw.githubusercontent.com/nightsense/cosmic_latte/master/terminals/konsole/cosmic_latte_light.colorscheme), [dark](https://raw.githubusercontent.com/nightsense/cosmic_latte/master/terminals/konsole/cosmic_latte_dark.colorscheme)) to `~/.local/share/konsole`, retaining file extension `.colorscheme`
+  - download theme file ([light](https://raw.githubusercontent.com/nightsense/cosmic_latte/master/terminals/konsole/cosmic_latte_light.colorscheme) | [dark](https://raw.githubusercontent.com/nightsense/cosmic_latte/master/terminals/konsole/cosmic_latte_dark.colorscheme)) to `~/.local/share/konsole`, retaining file extension `.colorscheme`
   - launch Konsole and navigate: Settings > Edit Current Profile... > Appearance
   - select cosmic_latte theme from Color Schemes & Background pane
 - [st](https://github.com/nightsense/cosmic_latte/tree/master/terminals/st)
