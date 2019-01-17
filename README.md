@@ -336,7 +336,7 @@ source ~/.vim/plugged/cosmic_latte/shell/cosmic_latte_dark.fish
 
 <h6>The 4.5:1 <a href='https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html#visual-audio-contrast-contrast-73-head'>W3C contrast ratio standard</a> for readability is met by all text-background combinations, with the exception of some transient highlighting (e.g. cursorline/column), which nonetheless well exceeds the minimal ISO 3:1 standard.</h6>
 
-<h6>Terminal themes generated with [terminal.sexy](https://terminal.sexy).</h6>
+<h6>Terminal themes generated with <a href="https://terminal.sexy">terminal.sexy</a>.</h6>
 
 <h6>image credits:
 <ul><br>
