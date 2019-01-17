@@ -318,6 +318,16 @@ source ~/.vim/plugged/cosmic_latte/shell/cosmic_latte_dark.fish
 - [st](https://github.com/nightsense/cosmic_latte/tree/master/terminals/st)
 - [xresources](https://github.com/nightsense/cosmic_latte/tree/master/terminals/xresources)
 
+### emacs
+
+- put in your `load-path`: [dash.el](https://raw.githubusercontent.com/nightsense/cosmic_latte/master/emacs/dash.el) + [cosmic_latte_light.el](https://raw.githubusercontent.com/nightsense/cosmic_latte/master/emacs/cosmic_latte_light.el) | [cosmic_latte_dark.el](https://raw.githubusercontent.com/nightsense/cosmic_latte/master/emacs/cosmic_latte_dark.el)
+- put in `~/.emacs.d/themes`: [cosmic_latte_light-theme.el](https://raw.githubusercontent.com/nightsense/cosmic_latte/master/emacs/cosmic_latte_light-theme.el) | [cosmic_latte_dark-theme.el](https://raw.githubusercontent.com/nightsense/cosmic_latte/master/emacs/cosmic_latte_dark-theme.el)
+- add to `init.el`: `(add-to-list 'custom-theme-load-path "~/.emacs.d/themes")`
+- load cosmic_latte with `M-x load-theme`
+
+> This emacs theme is, for now, simply a find/replace conversion of
+> [https://github.com/bbatsov/solarized-emacs](https://github.com/bbatsov/solarized-emacs).
+
 ### misc
 
 - [slack sidebar](https://github.com/nightsense/cosmic_latte/tree/master/misc/slack)
