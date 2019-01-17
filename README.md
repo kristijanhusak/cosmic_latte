@@ -318,8 +318,6 @@ source ~/.vim/plugged/cosmic_latte/shell/cosmic_latte_dark.fish
 - [st](https://github.com/nightsense/cosmic_latte/tree/master/terminals/st)
 - [xresources](https://github.com/nightsense/cosmic_latte/tree/master/terminals/xresources)
 
-> Terminal themes generated with [terminal.sexy](https://terminal.sexy).
-
 ### misc
 
 - [slack sidebar](https://github.com/nightsense/cosmic_latte/tree/master/misc/slack)
@@ -337,6 +335,8 @@ source ~/.vim/plugged/cosmic_latte/shell/cosmic_latte_dark.fish
 <a href='https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html'><img src='https://img.shields.io/badge/meets%20standard-4.5%3A1%20readability%20contrast-005a9c.svg?style=flat-square' /></a>
 
 <h6>The 4.5:1 <a href='https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html#visual-audio-contrast-contrast-73-head'>W3C contrast ratio standard</a> for readability is met by all text-background combinations, with the exception of some transient highlighting (e.g. cursorline/column), which nonetheless well exceeds the minimal ISO 3:1 standard.</h6>
+
+<h6>Terminal themes generated with [terminal.sexy](https://terminal.sexy).</h6>
 
 <h6>image credits:
 <ul><br>
