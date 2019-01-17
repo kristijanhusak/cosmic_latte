@@ -255,7 +255,7 @@ let &t_EI = "\<Esc>[2 q"
 
 ### colors
 
-Many terminal emulators can be themed by sourcing the color-setting shell scripts included with cosmic_latte. The path to these scripts will depend on your plugin management method.
+Many terminal emulators (including GNOME Terminal, Xfce Terminal, Terminator, Guake, Alacritty, and kitty) can be themed by sourcing the color-setting shell scripts included with cosmic_latte. The path to these scripts will depend on your plugin management method.
 
 For instance, if you use vim-plug and want to apply the dark cosmic_latte theme to your bash or zsh shell, add the following to `~/.bashrc` or `~/.zshrc`:
 
@@ -302,6 +302,21 @@ For the dark theme in a vim-plug setup, add to `~/.config/fish/config.fish`:
 ```
 source ~/.vim/plugged/cosmic_latte/shell/cosmic_latte_dark.fish
 ```
+
+## other themes
+
+The following additional themes are provided, but not personally used,
+by the author (so don't hesitate to report [issues](https://github.com/nightsense/cosmic_latte/issues)!).
+
+- [terminals](https://github.com/nightsense/cosmic_latte/tree/master/terminals)
+  - iterm2
+  - konsole
+  - st
+  - terminal.app
+  - xresources
+
+- [apps](https://github.com/nightsense/cosmic_latte/tree/master/apps)
+  - slack
 
 ---
 

@@ -1,0 +1,58 @@
+#define black_normal #202a31
+#define red___normal #c17b8d
+#define green_normal #7d9761
+#define gold__normal #b28761
+#define blue__normal #5496bd
+#define mgnta_normal #9b85bb
+#define cyan__normal #459d90
+#define white_normal #abb0c0
+#define black_bright #898f9e
+#define red___bright #c17b8d
+#define green_bright #7d9761
+#define gold__bright #b28761
+#define blue__bright #5496bd
+#define mgnta_bright #9b85bb
+#define cyan__bright #459d90
+#define white_bright #c5cbdb
+
+XTerm*background:  black_normal
+XTerm*foreground:  white_normal
+XTerm*cursorColor: white_bright
+
+XTerm*color0:      black_normal
+XTerm*color1:      red___normal
+XTerm*color2:      green_normal
+XTerm*color3:      gold__normal
+XTerm*color4:      blue__normal
+XTerm*color5:      mgnta_normal
+XTerm*color6:      cyan__normal
+XTerm*color7:      white_normal
+XTerm*color8:      black_bright
+XTerm*color9:      red___bright
+XTerm*color10:     green_bright
+XTerm*color11:     gold__bright
+XTerm*color12:     blue__bright
+XTerm*color13:     mgnta_bright
+XTerm*color14:     cyan__bright
+XTerm*color15:     white_bright
+
+URxvt.background:  black_normal
+URxvt.foreground:  white_normal
+URxvt.cursorColor: white_bright
+
+URxvt.color0:      black_normal
+URxvt.color1:      red___normal
+URxvt.color2:      green_normal
+URxvt.color3:      gold__normal
+URxvt.color4:      blue__normal
+URxvt.color5:      mgnta_normal
+URxvt.color6:      cyan__normal
+URxvt.color7:      white_normal
+URxvt.color8:      black_bright
+URxvt.color9:      red___bright
+URxvt.color10:     green_bright
+URxvt.color11:     gold__bright
+URxvt.color12:     blue__bright
+URxvt.color13:     mgnta_bright
+URxvt.color14:     cyan__bright
+URxvt.color15:     white_bright
