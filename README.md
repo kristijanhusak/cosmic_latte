@@ -317,7 +317,29 @@ source ~/.vim/plugged/cosmic_latte/shell/cosmic_latte_dark.fish
   - or `(load-theme 'cosmic_latte_dark' t)` for the dark version
 
 > This emacs theme is, for now, simply a find/replace conversion of
-> [https://github.com/bbatsov/solarized-emacs](https://github.com/bbatsov/solarized-emacs).
+> [bbatsov/solarized-emacs](https://github.com/bbatsov/solarized-emacs).
+
+### TextMate | Sublime Text
+
+- download theme file ([light](https://raw.githubusercontent.com/nightsense/cosmic_latte/master/textmate/cosmic_latte_light.tmTheme) | [dark](https://raw.githubusercontent.com/nightsense/cosmic_latte/master/textmate/cosmic_latte_dark.tmTheme))
+- for TextMate: double-click the file to install and activate it
+  - the theme will become available in Preferences > Fonts & Colors
+- for Sublime Text:
+  - find your Packages folder by opening Sublime Text and navigating: Preferences > Browse Packages...
+  - place theme file in Packages folder
+  - activate from the list at: Preferences > Color Scheme...
+
+> This theme is, for now, simply a find/replace conversion of
+> [deplorableword/textmate-solarized](https://github.com/deplorableword/textmate-solarized).
+
+### Atom
+
+- add contents of theme file ([light](https://raw.githubusercontent.com/nightsense/cosmic_latte/master/atom/cosmic_latte_light.less) | [dark](https://raw.githubusercontent.com/nightsense/cosmic_latte/master/atom/cosmic_latte_dark.less)) to your `styles.less`
+  - you can open this file from Atom by navigating: Edit > Preferences > Themes > "your stylesheet"
+  - alternatively, save the theme file somewhere else and add an @import to `styles.less`
+    - e.g. `@import "/home/username/.atom/cosmic_latte_light.less";`
+
+> These themes are based on [One Light/Dark Syntax](https://github.com/atom/atom/tree/master/packages/).
 
 ### terminals
 
