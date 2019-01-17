@@ -1,7 +1,7 @@
 ;; A port of cosmic_latte dark to Emacs.
 
-;; This is simply a find/replace conversion of Solarized for Emacs
-;; by Bozhidar Batsov. The preface of that project follows:
+;; This is simply a find/replace conversion of Solarized for Emacs.
+;; The preface of that project follows:
 
 ;;; solarized.el --- Solarized for Emacs.
 
