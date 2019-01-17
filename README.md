@@ -326,6 +326,7 @@ source ~/.vim/plugged/cosmic_latte/shell/cosmic_latte_dark.fish
   - the theme will become available in Preferences > Fonts & Colors
 - for Sublime Text:
   - find your Packages folder by opening Sublime Text and navigating: Preferences > Browse Packages...
+    - e.g. `~/.config/sublime-text-3/Packages/User/`
   - place theme file in Packages folder
   - activate from the list at: Preferences > Color Scheme...
 
