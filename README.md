@@ -309,14 +309,16 @@ The following additional themes are provided, but not personally used,
 by the author (so don't hesitate to report [issues](https://github.com/nightsense/cosmic_latte/issues)!).
 
 - [terminals](https://github.com/nightsense/cosmic_latte/tree/master/terminals)
-  - iterm2
-  - konsole
-  - st
-  - terminal.app
-  - xresources
+  - [iterm2](https://github.com/nightsense/cosmic_latte/tree/master/terminals/iterm2)
+  - [konsole](https://github.com/nightsense/cosmic_latte/tree/master/terminals/konsole)
+  - [st](https://github.com/nightsense/cosmic_latte/tree/master/terminals/st)
+  - [terminal.app](https://github.com/nightsense/cosmic_latte/tree/master/terminals/terminal.app)
+  - [xresources](https://github.com/nightsense/cosmic_latte/tree/master/terminals/xresources)
 
 - [apps](https://github.com/nightsense/cosmic_latte/tree/master/apps)
-  - slack
+  - [slack](https://github.com/nightsense/cosmic_latte/tree/master/apps/slack)
+
+These themes were mostly generated with [terminal.sexy](https://terminal.sexy).
 
 ---
 
