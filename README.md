@@ -255,7 +255,7 @@ let &t_EI = "\<Esc>[2 q"
 
 ### colors
 
-Many terminal emulators (including iTerm2, GNOME Terminal, Pantheon Terminal, MATE Terminal, Xfce Terminal, LXTerminal, Terminator, Guake, Alacritty, and kitty) can be themed by sourcing the color-setting shell scripts included with cosmic_latte. The path to these scripts will depend on your plugin management method.
+Many terminal emulators (including iTerm2, GNOME Terminal, Pantheon Terminal, MATE Terminal, Xfce Terminal, LXTerminal, Terminator, Guake, Alacritty, and kitty) can be themed by sourcing the color-setting shell scripts included with cosmic_latte. You can [download](https://github.com/nightsense/cosmic_latte/tree/master/shell) these scripts directly to a folder of your choosing, and source them from there; or, if cosmic_latte is already installed as a vim plugin, you can source them from the vim plugin path (which varies by plugin management method).
 
 For instance, if you use vim-plug and want to apply the dark cosmic_latte theme to your bash or zsh shell, add the following to `~/.bashrc` or `~/.zshrc`:
 
@@ -277,7 +277,7 @@ Replace `dark` with `light` for the light theme.
 
 ### dircolors
 
-Color output (for distinguishing file types) of the `ls` command can be themed by sourcing the included "dircolors" file. The path to this file will depend on your plugin management method.
+Color output (for distinguishing file types) of the `ls` command can be themed by sourcing the included "dircolors" file. The path to this file will depend on your vim plugin management method.
 
 For instance, if you use vim-plug and want to apply the cosmic_latte dircolors to your bash or zsh shell, add the following to `~/.bashrc` or `~/.zshrc`:
 
@@ -306,7 +306,7 @@ source ~/.vim/plugged/cosmic_latte/shell/cosmic_latte_dark.fish
 ## other themes
 
 The following additional themes are provided, but not personally used,
-by the author (so don't hesitate to report [issues](https://github.com/nightsense/cosmic_latte/issues)).
+by the author (don't hesitate to report [issues](https://github.com/nightsense/cosmic_latte/issues)).
 
 ### apps
 
