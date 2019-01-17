@@ -332,7 +332,7 @@ source ~/.vim/plugged/cosmic_latte/shell/cosmic_latte_dark.fish
 
 ### misc
 
-- [slack sidebar](https://github.com/nightsense/cosmic_latte/tree/master/apps/slack)
+- [slack sidebar](https://github.com/nightsense/cosmic_latte/tree/master/misc/slack)
 
 ---
 
