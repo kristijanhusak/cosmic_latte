@@ -122,7 +122,7 @@
 <tr>
 <td colspan="8"><br>
 
-All colors are derived from the <a href="https://en.wikipedia.org/wiki/Cosmic_latte">average color of the universe</a><br>through application of the golden ratio, contrast ratios, and<br>simple multiples, using the LCh color model.
+All colors are derived from the <a href="https://en.wikipedia.org/wiki/Cosmic_latte">average color of the universe</a><br>through application of the golden ratio, simple contrast ratios,<br>and simple multiples, using the LCh color model.
 
 See the <a href="https://github.com/nightsense/snow">snow repository</a>
 for syntax highlighting color logic.
