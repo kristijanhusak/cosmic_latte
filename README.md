@@ -7,7 +7,7 @@
 <tr>
 <td colspan='3'>
 <img src='images/wayup.jpg' width='267'>
-<h6>from the highest heaven...</h6>
+<h6>from highest heaven...</h6>
 </td>
 <td colspan='2'>
 <img src='images/latte.png' width='209'>
@@ -15,7 +15,7 @@
 </td>
 <td colspan='3'>
 <img src='images/waydn.jpg' width='267'>
-<h6>...to the deepest ocean</h6>
+<h6>...to deepest ocean</h6>
 </td>
 </tr>
 
