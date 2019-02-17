@@ -54,7 +54,7 @@ PmenuSbar          gryp   gryp
 PmenuThumb         gry3   gry3
 TabLineFill        gry1   gry1
 ToolbarLine        gry1   gry1
-VertSplit          gryp   gryp
+VertSplit          gry1   gry1
 
 # spellcheck
 SpellBad           none   none   g=undercurl   s=sprd   t=underline
