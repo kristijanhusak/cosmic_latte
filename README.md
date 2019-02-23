@@ -348,6 +348,8 @@ source ~/.vim/plugged/cosmic_latte/shell/cosmic_latte_dark.fish
   - download theme file ([light](https://raw.githubusercontent.com/nightsense/cosmic_latte/master/terminals/iterm2/cosmic_latte_light.itermcolors) | [dark](https://raw.githubusercontent.com/nightsense/cosmic_latte/master/terminals/iterm2/cosmic_latte_dark.itermcolors))
   - launch iTerm and navigate: iTerm > Preferences > Profiles > Colors > Presets... > Import...
   - select downloaded file, then select cosmic_latte theme from Preset... menu
+- [kitty](https://sw.kovidgoyal.net/kitty)
+  - add contents of theme file ([light](https://raw.githubusercontent.com/nightsense/cosmic_latte/master/terminals/kitty/cosmic_latte_light.conf) | [dark](https://raw.githubusercontent.com/nightsense/cosmic_latte/master/terminals/kitty/cosmic_latte_dark.conf)) to `~/.config/kitty/kitty.conf`, or download theme file and source from `kitty.conf` (e.g. `include ~/path/to/theme/cosmic_latte-light.conf`)
 - [konsole](https://github.com/nightsense/cosmic_latte/tree/master/terminals/konsole)
   - download theme file ([light](https://raw.githubusercontent.com/nightsense/cosmic_latte/master/terminals/konsole/cosmic_latte_light.colorscheme) | [dark](https://raw.githubusercontent.com/nightsense/cosmic_latte/master/terminals/konsole/cosmic_latte_dark.colorscheme)) to `~/.local/share/konsole`, retaining file extension `.colorscheme`
   - launch Konsole and navigate: Settings > Edit Current Profile... > Appearance
