@@ -36,7 +36,7 @@ if has("nvim")
   let g:terminal_color_5 = "@guimgnt"
   let g:terminal_color_6 = "@guicyan"
   let g:terminal_color_7 = "@guigry3"
-  let g:terminal_color_8 = "@guigry1"
+  let g:terminal_color_8 = "@guigry2"
   let g:terminal_color_9 = "@guired_"
   let g:terminal_color_10 = "@guigren"
   let g:terminal_color_11 = "@guigold"
@@ -54,7 +54,7 @@ elseif has("terminal")
       \ "@guimgnt",
       \ "@guicyan",
       \ "@guigry3",
-      \ "@guigry1",
+      \ "@guigry2",
       \ "@guired_",
       \ "@guigren",
       \ "@guigold",
@@ -336,7 +336,7 @@ if has("nvim")
   let g:terminal_color_5 = "@guimgnt"
   let g:terminal_color_6 = "@guicyan"
   let g:terminal_color_7 = "@guigry3"
-  let g:terminal_color_8 = "@guigry1"
+  let g:terminal_color_8 = "@guigry2"
   let g:terminal_color_9 = "@guired_"
   let g:terminal_color_10 = "@guigren"
   let g:terminal_color_11 = "@guigold"
@@ -354,7 +354,7 @@ elseif has("terminal")
       \ "@guimgnt",
       \ "@guicyan",
       \ "@guigry3",
-      \ "@guigry1",
+      \ "@guigry2",
       \ "@guired_",
       \ "@guigren",
       \ "@guigold",

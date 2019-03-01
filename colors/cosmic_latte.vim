@@ -2,9 +2,10 @@
 " Author:       nightsense
 " Maintainer:   nightsense
 " License:      MIT
+" Last Updated: Fri 01 Mar 2019 08:21:54 AM CET
 
 if !(has('termguicolors') && &termguicolors) && !has('gui_running')
-    \ && (!exists('&t_Co') || &t_Co < 256)
+      \ && (!exists('&t_Co') || &t_Co < 256)
   echoerr '[cosmic_latte] There are not enough colors.'
   finish
 endif
@@ -43,15 +44,15 @@ if &background ==# 'dark'
   hi Folded ctermfg=NONE ctermbg=237 guifg=NONE guibg=#2b3740 guisp=NONE cterm=NONE gui=NONE
   hi Pmenu ctermfg=145 ctermbg=237 guifg=#abb0c0 guibg=#2b3740 guisp=NONE cterm=NONE gui=NONE
   hi QuickFixLine ctermfg=NONE ctermbg=237 guifg=NONE guibg=#2b3740 guisp=NONE cterm=NONE gui=NONE
-  hi StatusLineNC ctermfg=145 ctermbg=237 guifg=#abb0c0 guibg=#2b3740 guisp=NONE cterm=NONE gui=NONE
-  hi StatusLineTermNC ctermfg=145 ctermbg=237 guifg=#abb0c0 guibg=#2b3740 guisp=NONE cterm=NONE gui=NONE
+  hi StatusLineNC ctermfg=237 ctermbg=145 guifg=#2b3740 guibg=#abb0c0 guisp=NONE cterm=NONE gui=NONE
+  hi StatusLineTermNC ctermfg=237 ctermbg=145 guifg=#2b3740 guibg=#abb0c0 guisp=NONE cterm=NONE gui=NONE
   hi TabLine ctermfg=145 ctermbg=237 guifg=#abb0c0 guibg=#2b3740 guisp=NONE cterm=NONE gui=NONE
   hi ToolbarButton ctermfg=145 ctermbg=237 guifg=#abb0c0 guibg=#2b3740 guisp=NONE cterm=NONE,bold gui=NONE,bold
   hi VisualNOS ctermfg=145 ctermbg=237 guifg=#abb0c0 guibg=#2b3740 guisp=NONE cterm=NONE gui=NONE
-  hi WildMenu ctermfg=145 ctermbg=237 guifg=#abb0c0 guibg=#2b3740 guisp=NONE cterm=NONE gui=NONE
+  hi WildMenu ctermfg=237 ctermbg=145 guifg=#2b3740 guibg=#abb0c0 guisp=NONE cterm=NONE gui=NONE
   hi PmenuSel ctermfg=145 ctermbg=235 guifg=#abb0c0 guibg=#202a31 guisp=NONE cterm=NONE,reverse gui=NONE,reverse
-  hi StatusLine ctermfg=145 ctermbg=235 guifg=#abb0c0 guibg=#202a31 guisp=NONE cterm=NONE,reverse gui=NONE,reverse
-  hi StatusLineTerm ctermfg=145 ctermbg=235 guifg=#abb0c0 guibg=#202a31 guisp=NONE cterm=NONE,reverse gui=NONE,reverse
+  hi StatusLine ctermfg=237 ctermbg=145 guifg=#2b3740 guibg=#abb0c0 guisp=NONE cterm=NONE,reverse gui=NONE,reverse
+  hi StatusLineTerm ctermfg=237 ctermbg=145 guifg=#2b3740 guibg=#abb0c0 guisp=NONE cterm=NONE,reverse gui=NONE,reverse
   hi TabLineSel ctermfg=145 ctermbg=235 guifg=#abb0c0 guibg=#202a31 guisp=NONE cterm=NONE,reverse gui=NONE,reverse
   hi Cursor ctermfg=252 ctermbg=235 guifg=#c5cbdb guibg=#202a31 guisp=NONE cterm=NONE,reverse gui=NONE,reverse
   hi MatchParen ctermfg=252 ctermbg=240 guifg=#c5cbdb guibg=#4c5764 guisp=NONE cterm=NONE gui=NONE
@@ -118,7 +119,7 @@ if &background ==# 'dark'
     let g:terminal_color_5 = "#9b85bb"
     let g:terminal_color_6 = "#459d90"
     let g:terminal_color_7 = "#abb0c0"
-    let g:terminal_color_8 = "#2b3740"
+    let g:terminal_color_8 = "#898f9e"
     let g:terminal_color_9 = "#c17b8d"
     let g:terminal_color_10 = "#7d9761"
     let g:terminal_color_11 = "#b28761"
@@ -128,23 +129,23 @@ if &background ==# 'dark'
     let g:terminal_color_15 = "#c5cbdb"
   elseif has("terminal")
     let g:terminal_ansi_colors = [
-        \ "#202a31",
-        \ "#c17b8d",
-        \ "#7d9761",
-        \ "#b28761",
-        \ "#5496bd",
-        \ "#9b85bb",
-        \ "#459d90",
-        \ "#abb0c0",
-        \ "#2b3740",
-        \ "#c17b8d",
-        \ "#7d9761",
-        \ "#b28761",
-        \ "#5496bd",
-        \ "#9b85bb",
-        \ "#459d90",
-        \ "#c5cbdb"
-        \ ]
+          \ "#202a31",
+          \ "#c17b8d",
+          \ "#7d9761",
+          \ "#b28761",
+          \ "#5496bd",
+          \ "#9b85bb",
+          \ "#459d90",
+          \ "#abb0c0",
+          \ "#898f9e",
+          \ "#c17b8d",
+          \ "#7d9761",
+          \ "#b28761",
+          \ "#5496bd",
+          \ "#9b85bb",
+          \ "#459d90",
+          \ "#c5cbdb"
+          \ ]
   endif
   finish
 endif
@@ -175,15 +176,15 @@ hi DiffChange ctermfg=NONE ctermbg=254 guifg=NONE guibg=#efe4d2 guisp=NONE cterm
 hi Folded ctermfg=NONE ctermbg=254 guifg=NONE guibg=#efe4d2 guisp=NONE cterm=NONE gui=NONE
 hi Pmenu ctermfg=240 ctermbg=254 guifg=#485a62 guibg=#efe4d2 guisp=NONE cterm=NONE gui=NONE
 hi QuickFixLine ctermfg=NONE ctermbg=254 guifg=NONE guibg=#efe4d2 guisp=NONE cterm=NONE gui=NONE
-hi StatusLineNC ctermfg=240 ctermbg=254 guifg=#485a62 guibg=#efe4d2 guisp=NONE cterm=NONE gui=NONE
-hi StatusLineTermNC ctermfg=240 ctermbg=254 guifg=#485a62 guibg=#efe4d2 guisp=NONE cterm=NONE gui=NONE
+hi StatusLineNC ctermfg=254 ctermbg=240 guifg=#efe4d2 guibg=#485a62 guisp=NONE cterm=NONE gui=NONE
+hi StatusLineTermNC ctermfg=254 ctermbg=240 guifg=#efe4d2 guibg=#485a62 guisp=NONE cterm=NONE gui=NONE
 hi TabLine ctermfg=240 ctermbg=254 guifg=#485a62 guibg=#efe4d2 guisp=NONE cterm=NONE gui=NONE
 hi ToolbarButton ctermfg=240 ctermbg=254 guifg=#485a62 guibg=#efe4d2 guisp=NONE cterm=NONE,bold gui=NONE,bold
 hi VisualNOS ctermfg=240 ctermbg=254 guifg=#485a62 guibg=#efe4d2 guisp=NONE cterm=NONE gui=NONE
-hi WildMenu ctermfg=240 ctermbg=254 guifg=#485a62 guibg=#efe4d2 guisp=NONE cterm=NONE gui=NONE
+hi WildMenu ctermfg=254 ctermbg=240 guifg=#efe4d2 guibg=#485a62 guisp=NONE cterm=NONE gui=NONE
 hi PmenuSel ctermfg=240 ctermbg=231 guifg=#485a62 guibg=#fff8e7 guisp=NONE cterm=NONE,reverse gui=NONE,reverse
-hi StatusLine ctermfg=240 ctermbg=231 guifg=#485a62 guibg=#fff8e7 guisp=NONE cterm=NONE,reverse gui=NONE,reverse
-hi StatusLineTerm ctermfg=240 ctermbg=231 guifg=#485a62 guibg=#fff8e7 guisp=NONE cterm=NONE,reverse gui=NONE,reverse
+hi StatusLine ctermfg=254 ctermbg=240 guifg=#efe4d2 guibg=#485a62 guisp=NONE cterm=NONE,reverse gui=NONE,reverse
+hi StatusLineTerm ctermfg=254 ctermbg=240 guifg=#efe4d2 guibg=#485a62 guisp=NONE cterm=NONE,reverse gui=NONE,reverse
 hi TabLineSel ctermfg=240 ctermbg=231 guifg=#485a62 guibg=#fff8e7 guisp=NONE cterm=NONE,reverse gui=NONE,reverse
 hi Cursor ctermfg=238 ctermbg=231 guifg=#364850 guibg=#fff8e7 guisp=NONE cterm=NONE,reverse gui=NONE,reverse
 hi MatchParen ctermfg=238 ctermbg=144 guifg=#364850 guibg=#b1b4a2 guisp=NONE cterm=NONE gui=NONE
@@ -250,7 +251,7 @@ if has("nvim")
   let g:terminal_color_5 = "#a154ae"
   let g:terminal_color_6 = "#007f8a"
   let g:terminal_color_7 = "#485a62"
-  let g:terminal_color_8 = "#efe4d2"
+  let g:terminal_color_8 = "#63757e"
   let g:terminal_color_9 = "#c44756"
   let g:terminal_color_10 = "#1f8332"
   let g:terminal_color_11 = "#916d03"
@@ -260,23 +261,23 @@ if has("nvim")
   let g:terminal_color_15 = "#364850"
 elseif has("terminal")
   let g:terminal_ansi_colors = [
-      \ "#fff8e7",
-      \ "#c44756",
-      \ "#1f8332",
-      \ "#916d03",
-      \ "#0075c9",
-      \ "#a154ae",
-      \ "#007f8a",
-      \ "#485a62",
-      \ "#efe4d2",
-      \ "#c44756",
-      \ "#1f8332",
-      \ "#916d03",
-      \ "#0075c9",
-      \ "#a154ae",
-      \ "#007f8a",
-      \ "#364850"
-      \ ]
+        \ "#fff8e7",
+        \ "#c44756",
+        \ "#1f8332",
+        \ "#916d03",
+        \ "#0075c9",
+        \ "#a154ae",
+        \ "#007f8a",
+        \ "#485a62",
+        \ "#63757e",
+        \ "#c44756",
+        \ "#1f8332",
+        \ "#916d03",
+        \ "#0075c9",
+        \ "#a154ae",
+        \ "#007f8a",
+        \ "#364850"
+        \ ]
 endif
 finish
 
@@ -325,15 +326,15 @@ finish
 " Folded             none   gry1
 " Pmenu              gry3   gry1
 " QuickFixLine       none   gry1
-" StatusLineNC       gry3   gry1
-" StatusLineTermNC   gry3   gry1
+" StatusLineNC       gry1   gry3
+" StatusLineTermNC   gry1   gry3
 " TabLine            gry3   gry1
 " ToolbarButton      gry3   gry1   bold
 " VisualNOS          gry3   gry1
-" WildMenu           gry3   gry1
+" WildMenu           gry1   gry3
 " PmenuSel           gry3   gry0   reverse
-" StatusLine         gry3   gry0   reverse
-" StatusLineTerm     gry3   gry0   reverse
+" StatusLine         gry1   gry3   reverse
+" StatusLineTerm     gry1   gry3   reverse
 " TabLineSel         gry3   gry0   reverse
 " Cursor             gryc   gry0   reverse
 " MatchParen         gryc   gryp
@@ -436,15 +437,15 @@ finish
 " Folded             none   gry1
 " Pmenu              gry3   gry1
 " QuickFixLine       none   gry1
-" StatusLineNC       gry3   gry1
-" StatusLineTermNC   gry3   gry1
+" StatusLineNC       gry1   gry3
+" StatusLineTermNC   gry1   gry3
 " TabLine            gry3   gry1
 " ToolbarButton      gry3   gry1   bold
 " VisualNOS          gry3   gry1
-" WildMenu           gry3   gry1
+" WildMenu           gry1   gry3
 " PmenuSel           gry3   gry0   reverse
-" StatusLine         gry3   gry0   reverse
-" StatusLineTerm     gry3   gry0   reverse
+" StatusLine         gry1   gry3   reverse
+" StatusLineTerm     gry1   gry3   reverse
 " TabLineSel         gry3   gry0   reverse
 " Cursor             gryc   gry0   reverse
 " MatchParen         gryc   gryp

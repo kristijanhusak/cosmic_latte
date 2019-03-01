@@ -35,3 +35,4 @@ let s:p.normal.warning  = [[ s:mgnt, s:gry0 ]]
 
 let g:lightline#colorscheme#cosmic_latte_light#palette =
   \ lightline#colorscheme#flatten(s:p)
+

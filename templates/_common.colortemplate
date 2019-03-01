@@ -31,17 +31,17 @@ DiffChange         none   gry1
 Folded             none   gry1
 Pmenu              gry3   gry1
 QuickFixLine       none   gry1
-StatusLineNC       gry3   gry1
-StatusLineTermNC   gry3   gry1
+StatusLineNC       gry1   gry3
+StatusLineTermNC   gry1   gry3
 TabLine            gry3   gry1
 ToolbarButton      gry3   gry1   bold
 VisualNOS          gry3   gry1
-WildMenu           gry3   gry1
+WildMenu           gry1   gry3
 
 # highlighting - medium
 PmenuSel           gry3   gry0   reverse
-StatusLine         gry3   gry0   reverse
-StatusLineTerm     gry3   gry0   reverse
+StatusLine         gry1   gry3   reverse
+StatusLineTerm     gry1   gry3   reverse
 TabLineSel         gry3   gry0   reverse
 
 # highlighting - strong
